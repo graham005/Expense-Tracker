@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/public/css/index.css">
+</head>
+<body>
+    <header>
+        <h1>Expense Tracker</h1>
+    <nav>
+      <button class="button-3" onclick="redirectToLogin()">Login</button>
+      <button class="button-3" onclick="redirectToRegister()">Register</button>
+    </nav>
+    </header>
+      
+    <script>
+        function redirectToLogin() {
+            window.location.href = 'login.html';
+          }
+        function redirectToRegister() {
+            window.location.href = 'register.html';  
+          }
+    </script>
+</body>
+</html>
